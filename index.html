@@ -1,0 +1,189 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <div class="navigation">
+		<div class="menuToggle"><i></i></div>
+		<div class="menu">
+			<ul>
+				<li style="--i:0.1s;"><a href="#"><ion-icon name="home-outline"></ion-icon></a></li>
+				<li style="--i:0.2s;"><a href="#"><ion-icon name="person-outline"></ion-icon></a></li>
+				<li></li>
+				<li style="--i:0.2s;"><a href="#"><ion-icon name="heart-outline"></ion-icon></a></li>
+				<li style="--i:0.1s;"><a href="#"><ion-icon name="notifications-outline"></ion-icon></a></li>
+			</ul>
+		</div>
+	</div>
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+	<script>
+		let menuToggle = document.querySelector('.menuToggle');
+		menuToggle.onclick = function(){
+			menuToggle.classList.toggle('active');
+		}
+	</script>
+<head>
+    <title>Responsive Box Example</title>
+    <style>
+        /* CSS styles for the sidebar */
+        .sidebar {
+            display: flex;
+            flex-direction: column;
+            background-color: #f1f1f1;
+            padding: 10px;
+            border-radius: 5px;
+            width: 200px;
+        }
+
+        .sidebar ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .sidebar li {
+            background-color: #ffffff;
+            box-shadow: 0px 2px 5px #4ac317cf;
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 10px;
+            text-align: center;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        /* CSS styles for the main content */
+        .content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 10px;
+        }
+
+        .content .row {
+            background-color: hsl(111, 82%, 45%);
+            box-shadow: 0px 2px 5px hsla(120, 8%, 3%, 0.983);
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 10px;
+            text-align: center;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .content .col {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 250px;
+            width: 250px;
+            margin: 0 20px 20px;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+        
+
+        /* Responsive styles */
+        @media screen and (max-width: 768px) {
+            .sidebar {
+                width: 100%;
+            }
+
+            .content .row {
+                margin-bottom: 10px;
+            }
+
+            .content .col {
+                margin-right: 10px;
+            }
+        }
+    </style>
+</head>
+<div class="navigation">
+    <div class="menuToggle"><i></i></div>
+    <div class="menu">
+        <ul>
+            <li style="--i:0.1s;"><a href="#"><ion-icon name="home-outline"></ion-icon></a></li>
+            <li style="--i:0.2s;"><a href="#"><ion-icon name="person-outline"></ion-icon></a></li>
+            <li></li>
+            <li style="--i:0.2s;"><a href="#"><ion-icon name="heart-outline"></ion-icon></a></li>
+            <li style="--i:0.1s;"><a href="#"><ion-icon name="notifications-outline"></ion-icon></a></li>
+        </ul>
+    </div>
+</div>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script>
+    let menuToggle = document.querySelector('.menuToggle');
+    menuToggle.onclick = function(){
+        menuToggle.classList.toggle('active');
+    }
+</script>
+
+<body>
+    <div class="sidebar">
+        <ul>
+            <li>Dashboard</li>
+            <li>Analytics</li>
+            <li>Conversions</li>
+            <li>Visitors</li>
+            <li>Settings</li>
+            <li>Chatroom</li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <div class="row">
+            <div class="col">Analytics</div>
+        </div>
+        <div class="row">
+            <div class="col">Conversations</div>
+        </div>
+        <div class="row">
+            <div class="col">Visitors</div>
+        </div>
+       
+    </div>
+</body>
+
+<div class="container">
+    <div class="square">
+        <span style="--i:0;"></span>
+        <span style="--i:1;"></span>
+        <span style="--i:2;"></span>
+        <span style="--i:3;"></span>
+    </div>
+    <div class="square">
+        <span style="--i:0;"></span>
+        <span style="--i:1;"></span>
+        <span style="--i:2;"></span>
+        <span style="--i:3;"></span>
+    </div>
+    <div class="square">
+        <span style="--i:0;"></span>
+        <span style="--i:1;"></span>
+        <span style="--i:2;"></span>
+        <span style="--i:3;"></span>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
